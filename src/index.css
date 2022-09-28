@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.img-head{
+  width: 120px;
+}
+.head2 a{
+ margin: 10px;
+ color: black;
+ text-decoration: none;
+ font-weight: bold;
+}
+.head2{
+  text-align: right;
+  float: right;
+  position: relative;
+  top: 1.5em;
+  font-size: 20px;
+}
+.head2, .head1{
+  display: inline-block;
+}
+header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline-block;
+  margin: 20px 30px;
+  position: relative;
+  top: 4.5em;
+  left: 2em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+.container h4{
+  font-size: 20px;
+}
+.Avatar{
+  width: 420px;
+  height: 400px;
+}
+footer {
+  margin-top: 5em;
+  text-align: center;
+  padding: 3px;
+  background-color: #f1f1f1;
+  color: black;
 }
